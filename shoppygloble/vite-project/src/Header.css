@@ -1,0 +1,61 @@
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #4a00e0; /* Purple color */
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f5f7fa;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    margin: 0 2rem;
+    border: 1px solid #ddd;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    background-color: transparent;
+  }
+  
+  .nav-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-icons a, .nav-icons svg {
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-icons a:hover svg, .nav-icons svg:hover {
+    color: #4a00e0; /* Match the logo color */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .search-bar {
+      display: none; /* Hide search bar on smaller screens */
+    }
+  }
+  

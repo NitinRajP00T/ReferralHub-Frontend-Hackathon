@@ -1,0 +1,45 @@
+.cart-item {
+    margin: 15px 0;          /* Space between cart items */
+    padding: 15px;           /* Inner space of the cart item */
+    border: 1px solid #ddd;  /* Light gray border */
+    border-radius: 8px;      /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    display: flex;           /* Flexbox for alignment */
+    flex-direction: column;  /* Column layout */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .cart-item h2 {
+    font-size: 1.5em;        /* Larger font for the item name */
+    margin: 0 0 10px;       /* Margin below the name */
+  }
+  
+  .cart-item p {
+    margin: 5px 0;          /* Space between paragraphs */
+    font-size: 1em;         /* Standard font size */
+    color: #555;            /* Slightly darker color for text */
+  }
+  
+  button {
+
+    margin-right: 5px; 
+    margin-bottom: 5px;     /* Space between buttons */
+    padding: 8px 12px;      /* Padding for buttons */
+    border: none;           /* Remove default border */
+    border-radius: 5px; 
+    width: 15%;    /* Rounded corners */
+    background-color: #1f3347; /* Bootstrap primary color */
+    color: white;           /* White text color */
+    cursor: pointer;        /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  button:hover {
+    background-color: #86a4c5; /* Darker shade on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+  }
+  
